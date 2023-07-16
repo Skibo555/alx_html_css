@@ -210,7 +210,7 @@
     font-weight: var(--nav-item-font-weight);
     font-size: var(--nav-item-font-size);
     letter-spacing: var(--nav-item-letter-spacing);
-    margin: var(--nav-item-margin);
+   
   }
   
   .nav .nav-link {
@@ -219,7 +219,7 @@
     position: relative;
   }
   .nav .nav-item + .nav-item{
-    display: var(--nav-item-display);
+    margin: var(--nav-item-margin);
   }
   .nav .nav-link:hover {
     color: var(--nav-item-link-hover);
